@@ -1,0 +1,11 @@
+:root {
+  --primary-color: #6366f1;
+  --secondary-color: #ec4899;
+}
+.peer:checked ~ .peer-checked\:block {
+  display: block;
+}
+.peer:checked ~ .peer-checked\:hidden {
+  display: none;
+}
+/* Add any custom styles here */
